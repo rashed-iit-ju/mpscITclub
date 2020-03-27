@@ -1,0 +1,9 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-decoration: none;
+    border: seagreen solid 2px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
