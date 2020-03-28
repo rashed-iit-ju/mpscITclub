@@ -3,44 +3,133 @@
     <head>
         <title>Events || MPSC IT Club</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="StyleSheet/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" width="32px" height="32px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ourstory.html">Our Story</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Executive Committee
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="ec2018.html">Founding Executive Committee</a>
-                      <a class="dropdown-item" href="ec2019.html">Executive Committee 2019</a>
-                      <a class="dropdown-item" href="ec2020.html">Executive Committee 2020</a>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" width="32px" height="32px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ourstory.html">Our Story</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Executive Committee
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="ec2018.html">Founding Executive Committee</a>
+                          <a class="dropdown-item" href="ec2019.html">Executive Committee 2019</a>
+                          <a class="dropdown-item" href="ec2020.html">Executive Committee 2020</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+            </nav>
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action" href="#year-2018">Year 2018</a>
+                        <a class="list-group-item list-group-item-action" href="#year-2019">Year 2019</a>
+                        <a class="list-group-item list-group-item-action" href="#year-2020">Year 2020</a>
+                        <a class="list-group-item list-group-item-action" href="#year-2021">Year 2021</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">Events</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+                </div>
+                <div class="col-md-9">
+                    <div class="scrollspy-example" data-spy="scroll"  data-target="#list-example" data-offset="0">
+                        <h4 id="year-2018">Year 2018</h4>
+                        <p>...</p>
+                        <h4 id="year-2019">Year 2019</h4>
+                        <p>MPSC 1ST INTRA CLASS IT CARNIVAL:
+                            MPSC  IT Club is the first club to conduct a fest within the school premises. It took place on 6th and 7th March of 2019. We had different events for different groups i.e. Group A ( class 6-8) had the following events :
+                            IT Quiz: It was basically a quiz regarding IT. 
+                            Extempore Speech: Here students had to give a speech regarding any IT topic.
+                            Searching Geek: Here the students had to find the answers of the questions having access to the web.
+                            Group B ( class 9-10) had the following events:
+                            Programming: Here students will have to write codes of C programming.
+                            Multimedia Presentation: Here they had to give a presentation on any topic they want but it must be IT related.
+                            Sudoku
+                            Group A ( class 11-12) had the following events :
+                            Web page creation using HTML : Here the students had to create a web page using HTML.
+                            Programming: This is the same as Group B but the questions were different.
+                            There was also an event “ Short Video Presentation” that was applicable for all classes from class 6-12. And the registration fee was all over Tk. 50.
+                            The prize giving ceremony took place in our auditorium on March 7 at 4 pm.
+                            Classes on different topics:
+                            MPSC IT club took various classes for class 6-10. Our Executives took class of class 6 on topic “MS Word” ; class 7 on topic “ MS PowerPoint”; class 9 on “Programming” . The students had much euthism to learn and they showed continuos efforts. Our Moderator Mohammed Rasheduzzaman Sir and Farzana hoque Nishi Miss also took classes all round the year to keep the students stay interacted with MPSC IT club.
+                            
+                            NCTPC 2019:
+                            The members of MPSC IT club took part in the “ NATIONAL CHILD AND TEEN PROGRAMMING CONTEST” more commonly known as “NCTPC.” Around 30 students from class 9 of our English Version took part in it. It was really a wonderful experience for them.
+                            </p>
+                        <h4 id="year-2020">Year 2020</h4>
+                        <p>MPSC 2ND  INTRA IT CARNIVAL:
+                            MPSC 2nd IT carnival took place on 2nd ,3rd ,9th and 10th October 2019. This time we had individual fees for every event.
+                         Events for Group A ( class 6-8)
+                         Wall magazine : Here the students made different magazines on topics regarding IT.
+                         Tech Extempore Speech : Here they gave speech on IT regarding topics.
+                         IT Quiz : Quiz on IT related topics.
+                         Events for Group B (class 9-10)
+                         IT Quiz 
+                         Multimedia Presentation
+                         Programming
+                         (Same details like MPSC 1st intra class IT Carnival)
+                         Events for Group C ( class 11-12)
+                         IT Quiz
+                         Multimedia Presentation
+                         Static webpage design
+                         (Same details like MPSC 1st intra class IT Carnival)
+                         Open for all Events :
+                         Wall of fame :
+                         Here we submitted the writings Along with pictures of the students on the topic “ Technology for Ecology”. And the one with the highest likes combinedly on Instagram and Facebook got the 1st position.
+                         .Short video : (Same details like MPSC 1st intra class IT Carnival)
+                         Poster designing : Design posters on related topics.
+                         
+                         Signature Event :
+                         Our signature event was “Technobuzz” which was a 4 round event.
+                         Round 1- Beat the time:
+                         In this event participants will be given some short questions which they have to answer in a very short time.
+                         Round 2- Photographic Memory
+                         In this event participants will have to prove their memory skills. 
+                         Round 3- Searching Geek:
+                         In this event participants will be given some questions which they have to answer by surfing the internet.
+                         Round 4- Multimedia Presentation:
+                         The topics of multimedia Presentation was any topic regarding IT.
+                         
+                         This event also had prize money for the winners of Tk 3000 and 1st runner  up was Tk.1500 won by Team Thunderbolt and Team MGC's respectively. It was a wonderful experience for them.
+                         
+                         
+                         National Robotic Seminar:
+                         The national Robotic Seminar took place in Chin Moitri on 15th October 2019. Around 60 of our students went there and they got to learn about many things that will hopefully benefit them in near future. It was about robotics and our future.
+                         
+                         ISCPC 2019 :
+                         Inter School and College Programming Contest preliminary level took place on 26 October 2019. Three students made a team in the contest. And many teams participated here. And they also got experience to do more Programming Contests in near future.
+                         </p>
+                        <h4 id="year-2021">Year 2021</h4>
+                        <p>...</p>
+                      </div>
+                </div>
             </div>
-        </nav>  
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
     </body>
 </html>

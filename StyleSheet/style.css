@@ -1,5 +1,9 @@
 body{
-    width: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 100px;
 }
-
+.scrollspy-example {
+    position: relative;
+    height: 600px;
+    margin-top: .5rem;
+    overflow: auto;
+}
