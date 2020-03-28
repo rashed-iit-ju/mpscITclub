@@ -2,32 +2,4 @@ body{
     width: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-a{
-    text-decoration: none;
-    border: seagreen solid 2px;
-    border-radius: 5px;
-    padding: 10px 20px;
-}
-tr, td{
-    padding: 10px;
-    text-align: center;
-    background-color: silver;
-}
-th{
-    padding: 10px;
-}
-.header{
-    background-color: rgba(0, 128, 128, .5);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: fixed;
-    width: 100%;
-    margin: 0px;
-}
-img{
-    width: 150px;
-    height: 110px;
-}
-img:hover{
-    zoom: 150%;
-}
+
