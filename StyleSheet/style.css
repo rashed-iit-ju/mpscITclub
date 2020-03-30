@@ -7,3 +7,18 @@ body{
     margin-top: .5rem;
     overflow: auto;
 }
+.element {
+    width: 100%;
+    height: max-content;
+    border-radius: 10px;
+    animation: pulse 5s 2;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: burlywood;
+    }
+    100% {
+      background-color: rgb(145, 231, 7);
+    }
+  }
